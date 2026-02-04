@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "funny-button-app": {
+    "valentines-app": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -83,10 +83,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "funny-button-app:build:production"
+              "buildTarget": "valentines-app:build:production"
             },
             "development": {
-              "buildTarget": "funny-button-app:build:development"
+              "buildTarget": "valentines-app:build:development"
             }
           },
           "defaultConfiguration": "development"
