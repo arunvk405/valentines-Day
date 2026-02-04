@@ -6,8 +6,3 @@
   from = "/*"
   to = "/index.html"
   status = 200
-
-[plugins]
-  # We disable the experimental angular runtime if it's causing issues, 
-  # or just let Netlify use it with our explicit settings.
-  # However, for a simple CSR app, we usually don't need it.
