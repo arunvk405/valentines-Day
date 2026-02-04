@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "valentines-app": {
+    "will-you-be-my-valentine": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -83,10 +83,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "valentines-app:build:production"
+              "buildTarget": "will-you-be-my-valentine:build:production"
             },
             "development": {
-              "buildTarget": "valentines-app:build:development"
+              "buildTarget": "will-you-be-my-valentine:build:development"
             }
           },
           "defaultConfiguration": "development"
